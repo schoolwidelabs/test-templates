@@ -1,21 +1,27 @@
-# test-templates
+# My Tutorial
 
+## Step 1
 
+Here is some text.
 
-## TODO
+```blocks
+basic.showNumber(10)
+```
 
-- [ ] Add a reference for your blocks here
-- [ ] Add "icon.png" image (300x200) in the root folder
-- [ ] Add "- beta" to the GitHub project description if you are still iterating it.
-- [ ] Turn on your automated build on https://travis-ci.org
-- [ ] Use "pxt bump" to create a tagged release on GitHub
-- [ ] On GitHub, create a new file named LICENSE. Select the MIT License template.
-- [ ] Get your package reviewed and approved https://makecode.microbit.org/extensions/approval
+```template
+basic.showNumber(5)
+```
 
-Read more at https://makecode.microbit.org/extensions
+## Step 2
 
-## Supported targets
+Congratulations, you did it!
 
-* for PXT/microbit
-(The metadata above is needed for package search.)
+```blocks
+basic.showNumber(10)
+```
 
+```ghost
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(Math.round(17.1)
+})
+``` 
